@@ -1,0 +1,65 @@
+body {
+	background-color: rgb(104, 187, 285);
+	padding : 10px;
+	border : 1px solid black
+	}
+
+#header {
+	text-align : center
+	
+}
+
+img { padding: auto;
+	
+}
+
+#container {
+	width : 100%;
+	margin-top : 10px;
+	margin-bottom : 30px;
+	}
+
+#left-box {
+	float: left;
+	background-color: rgb(9, 30, 45);
+	color : white;
+	}
+
+
+#right-box {
+	margin-left : 10px;
+	padding: 10px;
+	
+	
+	
+}
+
+#experiences-box {
+	background-color: white;
+	padding: 10px;
+	}
+
+	.experience {
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+#studies-box {
+	background-color: white;
+	padding: 10px;
+	}
+	
+	.study {
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+
+
+#footer {
+	clear : both;
+	position : relative;
+	bottom : 10px
+	}
+
+div {border: 1px solid black}
