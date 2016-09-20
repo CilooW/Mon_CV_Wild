@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Almendra';
+    src: url('fonts/almendra/AlmendraSC-Regular.otf');
+}
+
+@font-face {
+    font-family: 'triforce';
+    src: url('fonts/Triforce.ttf');
+}
+
 body {
 	background-color: rgb(104, 187, 285);
 	padding : 10px;
@@ -5,13 +15,20 @@ body {
 	}
 
 #header {
-	text-align : center
+	text-align : center;
+	
+	font-family: 'triforce', Verdana;
+}
+
+h1 {font-size: 3.7em;}
+#right-box h2 {font-family: 'Almendra', Verdana;
+	font-size:3em;
+}
+
+img { margin-left : 30%;
 	
 }
 
-img { padding: auto;
-	
-}
 
 #container {
 	width : 100%;
@@ -31,10 +48,13 @@ img { padding: auto;
 		display: inline-block;
 		height : 100%;
 		width :20%;
+		font-size: 1.6em;
 
 
 		}
+.catchphrase {text-align:center}
 
+#left-box ul p, #left-box ol p {text-decoration:underline}
 
 	#right-box {
 
@@ -57,6 +77,7 @@ img { padding: auto;
 			.experience {
 				padding: 10px;
 				margin-bottom: 10px;
+				background-color : #ededed;
 			}
 
 		#studies-box {
@@ -68,6 +89,7 @@ img { padding: auto;
 			.study {
 				padding: 10px;
 				margin-bottom: 10px;
+				background-color : #ededed;
 			}
 
 
@@ -75,7 +97,9 @@ img { padding: auto;
 #footer {
 	clear : both;
 	position : relative;
-	bottom : 10px
+	bottom : 10px;
+	font-size:1.3em;
+	text-align:center;
 	}
 
 div {border: 1px solid black}
