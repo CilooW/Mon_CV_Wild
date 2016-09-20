@@ -17,42 +17,58 @@ img { padding: auto;
 	width : 100%;
 	margin-top : 10px;
 	margin-bottom : 30px;
+	padding : 10px;
+	height: 120vh;
+
+
 	}
 
-#left-box {
-	float: left;
-	background-color: rgb(9, 30, 45);
-	color : white;
-	}
-
-
-#right-box {
-	margin-left : 10px;
-	padding: 10px;
-	
-	
-	
-}
-
-#experiences-box {
-	background-color: white;
-	padding: 10px;
-	}
-
-	.experience {
+	#left-box {
+		float: left;
+		background-color: rgb(9, 30, 45);
+		color : white;
 		padding: 10px;
-		margin-bottom: 10px;
+		display: inline-block;
+		height : 100%;
+		width :20%;
+
+
+		}
+
+
+	#right-box {
+
+		padding: 10px;
+		margin-left: 10px;
+		height: 100%;
+		width : 77%;
+		display: inline-block;
+		;
+
+
 	}
 
-#studies-box {
-	background-color: white;
-	padding: 10px;
-	}
-	
-	.study {
-		padding: 10px;
-		margin-bottom: 10px;
-	}
+		#experiences-box {
+			background-color: white;
+			padding: 10px;
+			margin: 10px;
+			}
+
+			.experience {
+				padding: 10px;
+				margin-bottom: 10px;
+			}
+
+		#studies-box {
+			background-color: white;
+			padding: 10px;
+			margin: 10px;
+			}
+
+			.study {
+				padding: 10px;
+				margin-bottom: 10px;
+			}
 
 
 
