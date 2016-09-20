@@ -35,7 +35,8 @@ img { margin-left : 30%;
 	margin-top : 10px;
 	margin-bottom : 30px;
 	padding : 10px;
-	height: 120vh;
+	height: 100%
+	
 
 
 	}
@@ -49,6 +50,7 @@ img { margin-left : 30%;
 		height : 100%;
 		width :20%;
 		font-size: 1.6em;
+		padding-bottom : 200px
 
 
 		}
